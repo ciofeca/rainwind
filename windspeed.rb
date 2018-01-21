@@ -25,9 +25,9 @@ while true
   diff = 5.0  if diff > 5.0
   spd = 2.40114121 / diff
   max = spd  if max < spd
-  puts "\t%.2f m/s\t%5.1f km/h\t%d msec\t\t%5.1f km/h max" % [ 0.66698368 / diff, spd, (diff*1000).ceil, max ]
+  puts "\t%.2f m/s\t%5.1f km/h\t%.1f msec\t\t%5.1f km/h max" % [ 0.66698368 / diff, spd, diff*1000, max ]
 
-# woot! my best breath output was 10.40 m/s (37.5 km/h, 23.26 mph)
+# woot! my best breath output was 10.72 m/s (38.6 km/h, 23.98 mph)
 
 end
 
